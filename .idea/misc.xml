@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_navigationdrawer.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/app_bar_navigationdrawer.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/content_navigationdrawer.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_gallery.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/menu/activity_main_drawer.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/menu/navigationdrawer.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22205128205128205" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22205128205128205" />
       </map>
     </option>
   </component>
