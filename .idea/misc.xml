@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13453815261044177" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w936dp/activity_login.xml" value="0.15703125" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_navigationdrawer.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/app_bar_navigationdrawer.xml" value="0.209375" />
