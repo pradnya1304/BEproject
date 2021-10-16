@@ -7,6 +7,7 @@
         <entry key="..\:/GitHub/BEproject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13453815261044177" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w936dp/activity_login.xml" value="0.15703125" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_Splash.xml" value="0.1" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_navigationdrawer.xml" value="0.209375" />
@@ -14,6 +15,7 @@
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/content_navigationdrawer.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_gallery.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_slideshow.xml" value="0.18697916666666667" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/nav_header_navigationdrawer.xml" value="0.1859375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/menu/activity_main_drawer.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/menu/navigationdrawer.xml" value="0.209375" />

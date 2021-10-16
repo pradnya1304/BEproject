@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#ffff"
+    android:orientation="vertical"
     tools:context=".Splash">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="217dp"
-        android:layout_height="206dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        app:layout_constraintBottom_toBottomof="parent"
         app:layout_constraintEnd_toEndof="parent"
-        app:layout_constraintHorizontal
-        app:layout_constraintBottom_toBottomof
-        app:layout_constraintBottom_toBottomof
-
-
-
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartof="parent"
+        app:layout_constraintTop_toTopof="parent"
+        app:srcCompat="@drawable/fire" />
 
 
 </LinearLayout>
