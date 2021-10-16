@@ -19,7 +19,7 @@
             android:label="@string/title_activity_navigationdrawer"
             android:theme="@style/Theme.BEproject.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
