@@ -1,33 +1,55 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "84808856770",
     "project_id": "beproject-fc2dd",
     "storage_bucket": "beproject-fc2dd.appspot.com"
+=======
+    "project_number": "1019048964808",
+    "project_id": "beproject-d0dbb",
+    "storage_bucket": "beproject-d0dbb.appspot.com"
+>>>>>>> 1091d6f (1)
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:84808856770:android:2c24ee62b24599d292375b",
+=======
+        "mobilesdk_app_id": "1:1019048964808:android:34472e7394071662082bfd",
+>>>>>>> 1091d6f (1)
         "android_client_info": {
           "package_name": "com.example.beproject"
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "84808856770-spnt9ark3mbjvfgecdi5gfbvlqbs88ie.apps.googleusercontent.com",
+=======
+          "client_id": "1019048964808-37avrhuvlkk5pf4kmn497kt3ouikqod8.apps.googleusercontent.com",
+>>>>>>> 1091d6f (1)
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyCt7-v3caYsOy5X50IUODCjHsLaYuDqLoY"
+=======
+          "current_key": "AIzaSyB1v8S095l0fhqjih__xnlZCOJlEeGrPMA"
+>>>>>>> 1091d6f (1)
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "84808856770-spnt9ark3mbjvfgecdi5gfbvlqbs88ie.apps.googleusercontent.com",
+=======
+              "client_id": "1019048964808-37avrhuvlkk5pf4kmn497kt3ouikqod8.apps.googleusercontent.com",
+>>>>>>> 1091d6f (1)
               "client_type": 3
             }
           ]
