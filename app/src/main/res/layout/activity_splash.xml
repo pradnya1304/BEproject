@@ -12,14 +12,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:baselineAligned="false"
-        app:layout_constraintBottom_toBottomof="parent"
-        app:layout_constraintEnd_toEndof="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartof="parent"
-        app:layout_constraintTop_toTopof="parent"
-        app:srcCompat="@drawable/fire"
-        />
+        app:srcCompat="@drawable/fire" />
 
 
 </LinearLayout>
