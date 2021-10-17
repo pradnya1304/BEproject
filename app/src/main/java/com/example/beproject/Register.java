@@ -65,17 +65,16 @@ public class Register extends AppCompatActivity {
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-
+                        OnCompleteListener<AuthResult> context = this;
+                        OnCompleteListener<AuthResult> text = this;
 
                       if(task.isSuccessful())  {
 
-                          Toast.makeText(Register.this, "User Created.", Toast.LENGTH_SHORT).show();
-
+                          Toast.makeText(context,Register.this, text,"User Created.",Toast.LENGTH_SHORT.show();
                           startActivity(new Intent(getApplicationContext(),Splash.class));
                           
                       }else{
-                          Toast.makeText(Register.this, "Error !" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-
+                          Toast.makeText(context,Register.this, text,"Error !"+task.getException().getMessage(),Toast.LENGTH_SHORT.show();
                       }
                     }
                 });
