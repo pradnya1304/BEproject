@@ -70,11 +70,11 @@ public class Register extends AppCompatActivity {
 
                       if(task.isSuccessful())  {
 
-                          Toast.makeText(context,Register.this, text,"User Created.",Toast.LENGTH_SHORT.show();
+                          Toast.makeText(context,Register.this, text,"User Created.",Toast.LENGTH_SHORT.show());
                           startActivity(new Intent(getApplicationContext(),Splash.class));
                           
                       }else{
-                          Toast.makeText(context,Register.this, text,"Error !"+task.getException().getMessage(),Toast.LENGTH_SHORT.show();
+                          Toast.makeText(context,Register.this, text,"Error !"+task.getException().getMessage(),Toast.LENGTH_SHORT.show());
                       }
                     }
                 });
