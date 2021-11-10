@@ -26,7 +26,7 @@ private ActivityNavigationdrawerBinding binding;
      setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarNavigationdrawer.toolbar);
-        binding.appBarNavigationdrawer.fab.setOnClickListener(new View.OnClickListener() {
+        binding.appBarNavigationdrawer.toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#919494"
+
+    tools:context=".Reminders">
+
+
+    <Button
+        android:id="@+id/button_AddMealsReminder"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="319dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="164dp"
+        android:background="#008080"
+        android:onClick="OpenReminder"
+        android:text="Add Meals Reminder"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_AddHydrationReminder"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="319dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="332dp"
+        android:background="#008080"
+        android:onClick="OpenReminder"
+        android:text="Add Hydration reminder"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
