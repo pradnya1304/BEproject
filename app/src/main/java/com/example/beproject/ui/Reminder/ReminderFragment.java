@@ -1,4 +1,4 @@
-package com.example.beproject.ui.gallery;
+package com.example.beproject.ui.Reminder;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,24 +10,24 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import com.example.beproject.R;
-import com.example.beproject.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+import com.example.beproject.databinding.FragmentReminderBinding;
 
-    private GalleryViewModel galleryViewModel;
-private FragmentGalleryBinding binding;
+public class ReminderFragment extends Fragment {
+
+    private ReminderViewModel reminderViewModel;
+private FragmentReminderBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        reminderViewModel =
+                new ViewModelProvider(this).get(ReminderViewModel.class);
 
-    binding = FragmentGalleryBinding.inflate(inflater, container, false);
+    binding = FragmentReminderBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        final TextView textView = binding.textReminder;
+        reminderViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

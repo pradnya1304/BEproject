@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.19947916666666668" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.19947916666666668" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13453815261044177" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.11144578313253012" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w936dp/activity_login.xml" value="0.15703125" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.130078125" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_Splash.xml" value="0.1" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_add_hydration_reminder.xml" value="0.18385416666666668" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_add_meals_reminder.xml" value="0.18385416666666668" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_add_reminder.xml" value="0.16458333333333333" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_home.xml" value="0.12864583333333332" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/activity_login.xml" value="0.22" />
@@ -22,6 +26,7 @@
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/app_bar_navigationdrawer.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/content_navigationdrawer.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/content_scrolling.xml" value="0.1734375" />
+        <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_Reminder.xml" value="0.10208333333333333" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_gallery.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
         <entry key="..\:/GitHub/BEproject/app/src/main/res/layout/fragment_slideshow.xml" value="0.18697916666666667" />
