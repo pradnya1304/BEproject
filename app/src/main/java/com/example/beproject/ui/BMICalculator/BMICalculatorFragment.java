@@ -1,4 +1,4 @@
-package com.example.beproject.ui.slideshow;
+package com.example.beproject.ui.BMICalculator;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,24 +10,24 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import com.example.beproject.R;
-import com.example.beproject.databinding.FragmentSlideshowBinding;
 
-public class SlideshowFragment extends Fragment {
+import com.example.beproject.databinding.FragmentBmicalculatorBinding;
 
-    private SlideshowViewModel slideshowViewModel;
-private FragmentSlideshowBinding binding;
+public class BMICalculatorFragment extends Fragment {
+
+    private BMICalculatorViewModel BMICalculatorViewModel;
+private FragmentBmicalculatorBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        BMICalculatorViewModel =
+                new ViewModelProvider(this).get(BMICalculatorViewModel.class);
 
-    binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+    binding = FragmentBmicalculatorBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        BMICalculatorViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
