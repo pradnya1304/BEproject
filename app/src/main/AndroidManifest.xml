@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BEproject">
         <activity
+            android:name=".AddHydrationReminder"
+            android:exported="false" />
+        <activity
+            android:name=".AddMealsReminder"
+            android:exported="false" />
+        <activity
             android:name=".Reminders"
             android:exported="false" />
         <activity
